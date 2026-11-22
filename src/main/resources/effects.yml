@@ -1,0 +1,1184 @@
+# Efectos por mascota. El jugador solo puede tener 1 equipado a la vez.
+# type = clave del efecto de Minecraft, level = nivel de la mascota para desbloquearlo.
+# Si una mascota no aparece en 'pets', usa 'default'. Los admins pueden cambiar el nivel desde /mascotas admin.
+
+default:
+  speed:
+    type: speed
+    amplifier: 0
+    level: 5
+    icon: SUGAR
+    name: "Velocidad I"
+  jump_boost:
+    type: jump_boost
+    amplifier: 0
+    level: 12
+    icon: RABBIT_FOOT
+    name: "Salto I"
+  night_vision:
+    type: night_vision
+    amplifier: 0
+    level: 20
+    icon: GOLDEN_CARROT
+    name: "Vision nocturna"
+  regeneration:
+    type: regeneration
+    amplifier: 1
+    level: 30
+    icon: GHAST_TEAR
+    name: "Regeneracion II"
+  resistance:
+    type: resistance
+    amplifier: 1
+    level: 40
+    icon: IRON_CHESTPLATE
+    name: "Resistencia II"
+
+pets:
+  zombie:
+    strength:
+      type: strength
+      amplifier: 0
+      level: 5
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 12
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    regeneration:
+      type: regeneration
+      amplifier: 0
+      level: 20
+      icon: GHAST_TEAR
+      name: "Regeneracion I"
+    health_boost:
+      type: health_boost
+      amplifier: 1
+      level: 30
+      icon: GLISTERING_MELON_SLICE
+      name: "Salud extra II"
+    absorption:
+      type: absorption
+      amplifier: 1
+      level: 40
+      icon: GOLDEN_APPLE
+      name: "Absorcion II"
+  husk:
+    fire_resistance:
+      type: fire_resistance
+      amplifier: 0
+      level: 5
+      icon: MAGMA_CREAM
+      name: "Resistencia al fuego"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 20
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 30
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+    absorption:
+      type: absorption
+      amplifier: 1
+      level: 40
+      icon: GOLDEN_APPLE
+      name: "Absorcion II"
+  drowned:
+    water_breathing:
+      type: water_breathing
+      amplifier: 0
+      level: 5
+      icon: PUFFERFISH
+      name: "Respiracion acuatica"
+    dolphins_grace:
+      type: dolphins_grace
+      amplifier: 0
+      level: 12
+      icon: HEART_OF_THE_SEA
+      name: "Gracia del delfin"
+    conduit_power:
+      type: conduit_power
+      amplifier: 0
+      level: 20
+      icon: CONDUIT
+      name: "Poder del conducto"
+    speed:
+      type: speed
+      amplifier: 1
+      level: 30
+      icon: SUGAR
+      name: "Velocidad II"
+    regeneration:
+      type: regeneration
+      amplifier: 1
+      level: 40
+      icon: GHAST_TEAR
+      name: "Regeneracion II"
+  zombie_villager:
+    luck:
+      type: luck
+      amplifier: 0
+      level: 5
+      icon: EMERALD
+      name: "Suerte"
+    regeneration:
+      type: regeneration
+      amplifier: 0
+      level: 12
+      icon: GHAST_TEAR
+      name: "Regeneracion I"
+    hero_of_the_village:
+      type: hero_of_the_village
+      amplifier: 0
+      level: 20
+      icon: EMERALD_BLOCK
+      name: "Heroe de la aldea"
+    health_boost:
+      type: health_boost
+      amplifier: 1
+      level: 30
+      icon: GLISTERING_MELON_SLICE
+      name: "Salud extra II"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 40
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+  zombified_piglin:
+    fire_resistance:
+      type: fire_resistance
+      amplifier: 0
+      level: 5
+      icon: MAGMA_CREAM
+      name: "Resistencia al fuego"
+    strength:
+      type: strength
+      amplifier: 0
+      level: 12
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 20
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    absorption:
+      type: absorption
+      amplifier: 1
+      level: 30
+      icon: GOLDEN_APPLE
+      name: "Absorcion II"
+    speed:
+      type: speed
+      amplifier: 1
+      level: 40
+      icon: SUGAR
+      name: "Velocidad II"
+  piglin:
+    luck:
+      type: luck
+      amplifier: 0
+      level: 5
+      icon: EMERALD
+      name: "Suerte"
+    fire_resistance:
+      type: fire_resistance
+      amplifier: 0
+      level: 12
+      icon: MAGMA_CREAM
+      name: "Resistencia al fuego"
+    haste:
+      type: haste
+      amplifier: 0
+      level: 20
+      icon: GOLDEN_PICKAXE
+      name: "Prisa I"
+    speed:
+      type: speed
+      amplifier: 1
+      level: 30
+      icon: SUGAR
+      name: "Velocidad II"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 40
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+  piglin_brute:
+    strength:
+      type: strength
+      amplifier: 0
+      level: 5
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 12
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    absorption:
+      type: absorption
+      amplifier: 0
+      level: 20
+      icon: GOLDEN_APPLE
+      name: "Absorcion I"
+    health_boost:
+      type: health_boost
+      amplifier: 1
+      level: 30
+      icon: GLISTERING_MELON_SLICE
+      name: "Salud extra II"
+    fire_resistance:
+      type: fire_resistance
+      amplifier: 0
+      level: 40
+      icon: MAGMA_CREAM
+      name: "Resistencia al fuego"
+  skeleton:
+    speed:
+      type: speed
+      amplifier: 0
+      level: 5
+      icon: SUGAR
+      name: "Velocidad I"
+    night_vision:
+      type: night_vision
+      amplifier: 0
+      level: 12
+      icon: GOLDEN_CARROT
+      name: "Vision nocturna"
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 20
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 30
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 40
+      icon: FEATHER
+      name: "Caida lenta"
+  stray:
+    speed:
+      type: speed
+      amplifier: 0
+      level: 5
+      icon: SUGAR
+      name: "Velocidad I"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 12
+      icon: FEATHER
+      name: "Caida lenta"
+    night_vision:
+      type: night_vision
+      amplifier: 0
+      level: 20
+      icon: GOLDEN_CARROT
+      name: "Vision nocturna"
+    resistance:
+      type: resistance
+      amplifier: 1
+      level: 30
+      icon: IRON_CHESTPLATE
+      name: "Resistencia II"
+    jump_boost:
+      type: jump_boost
+      amplifier: 1
+      level: 40
+      icon: RABBIT_FOOT
+      name: "Salto II"
+  bogged:
+    regeneration:
+      type: regeneration
+      amplifier: 0
+      level: 5
+      icon: GHAST_TEAR
+      name: "Regeneracion I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 12
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 20
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    speed:
+      type: speed
+      amplifier: 1
+      level: 30
+      icon: SUGAR
+      name: "Velocidad II"
+    luck:
+      type: luck
+      amplifier: 0
+      level: 40
+      icon: EMERALD
+      name: "Suerte"
+  pillager:
+    speed:
+      type: speed
+      amplifier: 0
+      level: 5
+      icon: SUGAR
+      name: "Velocidad I"
+    strength:
+      type: strength
+      amplifier: 0
+      level: 12
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    night_vision:
+      type: night_vision
+      amplifier: 0
+      level: 20
+      icon: GOLDEN_CARROT
+      name: "Vision nocturna"
+    haste:
+      type: haste
+      amplifier: 1
+      level: 30
+      icon: GOLDEN_PICKAXE
+      name: "Prisa II"
+    resistance:
+      type: resistance
+      amplifier: 1
+      level: 40
+      icon: IRON_CHESTPLATE
+      name: "Resistencia II"
+  blaze:
+    fire_resistance:
+      type: fire_resistance
+      amplifier: 0
+      level: 5
+      icon: MAGMA_CREAM
+      name: "Resistencia al fuego"
+    strength:
+      type: strength
+      amplifier: 0
+      level: 12
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 20
+      icon: SUGAR
+      name: "Velocidad I"
+    haste:
+      type: haste
+      amplifier: 1
+      level: 30
+      icon: GOLDEN_PICKAXE
+      name: "Prisa II"
+    resistance:
+      type: resistance
+      amplifier: 1
+      level: 40
+      icon: IRON_CHESTPLATE
+      name: "Resistencia II"
+  breeze:
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 5
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 20
+      icon: FEATHER
+      name: "Caida lenta"
+    haste:
+      type: haste
+      amplifier: 1
+      level: 30
+      icon: GOLDEN_PICKAXE
+      name: "Prisa II"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 40
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+  witch:
+    regeneration:
+      type: regeneration
+      amplifier: 0
+      level: 5
+      icon: GHAST_TEAR
+      name: "Regeneracion I"
+    luck:
+      type: luck
+      amplifier: 0
+      level: 12
+      icon: EMERALD
+      name: "Suerte"
+    absorption:
+      type: absorption
+      amplifier: 0
+      level: 20
+      icon: GOLDEN_APPLE
+      name: "Absorcion I"
+    fire_resistance:
+      type: fire_resistance
+      amplifier: 0
+      level: 30
+      icon: MAGMA_CREAM
+      name: "Resistencia al fuego"
+    water_breathing:
+      type: water_breathing
+      amplifier: 0
+      level: 40
+      icon: PUFFERFISH
+      name: "Respiracion acuatica"
+  evoker:
+    regeneration:
+      type: regeneration
+      amplifier: 0
+      level: 5
+      icon: GHAST_TEAR
+      name: "Regeneracion I"
+    absorption:
+      type: absorption
+      amplifier: 0
+      level: 12
+      icon: GOLDEN_APPLE
+      name: "Absorcion I"
+    luck:
+      type: luck
+      amplifier: 0
+      level: 20
+      icon: EMERALD
+      name: "Suerte"
+    health_boost:
+      type: health_boost
+      amplifier: 1
+      level: 30
+      icon: GLISTERING_MELON_SLICE
+      name: "Salud extra II"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 40
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+  snow_golem:
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 5
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 20
+      icon: FEATHER
+      name: "Caida lenta"
+    haste:
+      type: haste
+      amplifier: 1
+      level: 30
+      icon: GOLDEN_PICKAXE
+      name: "Prisa II"
+    absorption:
+      type: absorption
+      amplifier: 1
+      level: 40
+      icon: GOLDEN_APPLE
+      name: "Absorcion II"
+  llama:
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 5
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    luck:
+      type: luck
+      amplifier: 0
+      level: 20
+      icon: EMERALD
+      name: "Suerte"
+    regeneration:
+      type: regeneration
+      amplifier: 1
+      level: 30
+      icon: GHAST_TEAR
+      name: "Regeneracion II"
+    health_boost:
+      type: health_boost
+      amplifier: 1
+      level: 40
+      icon: GLISTERING_MELON_SLICE
+      name: "Salud extra II"
+  trader_llama:
+    luck:
+      type: luck
+      amplifier: 0
+      level: 5
+      icon: EMERALD
+      name: "Suerte"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    hero_of_the_village:
+      type: hero_of_the_village
+      amplifier: 0
+      level: 20
+      icon: EMERALD_BLOCK
+      name: "Heroe de la aldea"
+    regeneration:
+      type: regeneration
+      amplifier: 1
+      level: 30
+      icon: GHAST_TEAR
+      name: "Regeneracion II"
+    absorption:
+      type: absorption
+      amplifier: 1
+      level: 40
+      icon: GOLDEN_APPLE
+      name: "Absorcion II"
+  spider:
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 5
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    night_vision:
+      type: night_vision
+      amplifier: 0
+      level: 20
+      icon: GOLDEN_CARROT
+      name: "Vision nocturna"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 30
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 40
+      icon: FEATHER
+      name: "Caida lenta"
+  cave_spider:
+    night_vision:
+      type: night_vision
+      amplifier: 0
+      level: 5
+      icon: GOLDEN_CARROT
+      name: "Vision nocturna"
+    haste:
+      type: haste
+      amplifier: 0
+      level: 12
+      icon: GOLDEN_PICKAXE
+      name: "Prisa I"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 20
+      icon: SUGAR
+      name: "Velocidad I"
+    jump_boost:
+      type: jump_boost
+      amplifier: 1
+      level: 30
+      icon: RABBIT_FOOT
+      name: "Salto II"
+    resistance:
+      type: resistance
+      amplifier: 1
+      level: 40
+      icon: IRON_CHESTPLATE
+      name: "Resistencia II"
+  silverfish:
+    haste:
+      type: haste
+      amplifier: 0
+      level: 5
+      icon: GOLDEN_PICKAXE
+      name: "Prisa I"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 20
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    luck:
+      type: luck
+      amplifier: 0
+      level: 30
+      icon: EMERALD
+      name: "Suerte"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 40
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+  endermite:
+    speed:
+      type: speed
+      amplifier: 0
+      level: 5
+      icon: SUGAR
+      name: "Velocidad I"
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 12
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 20
+      icon: FEATHER
+      name: "Caida lenta"
+    luck:
+      type: luck
+      amplifier: 0
+      level: 30
+      icon: EMERALD
+      name: "Suerte"
+    invisibility:
+      type: invisibility
+      amplifier: 0
+      level: 40
+      icon: FERMENTED_SPIDER_EYE
+      name: "Invisibilidad"
+  vex:
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 5
+      icon: FEATHER
+      name: "Caida lenta"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    invisibility:
+      type: invisibility
+      amplifier: 0
+      level: 20
+      icon: FERMENTED_SPIDER_EYE
+      name: "Invisibilidad"
+    jump_boost:
+      type: jump_boost
+      amplifier: 1
+      level: 30
+      icon: RABBIT_FOOT
+      name: "Salto II"
+    regeneration:
+      type: regeneration
+      amplifier: 1
+      level: 40
+      icon: GHAST_TEAR
+      name: "Regeneracion II"
+  phantom:
+    night_vision:
+      type: night_vision
+      amplifier: 0
+      level: 5
+      icon: GOLDEN_CARROT
+      name: "Vision nocturna"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 12
+      icon: FEATHER
+      name: "Caida lenta"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 20
+      icon: SUGAR
+      name: "Velocidad I"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 30
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+    jump_boost:
+      type: jump_boost
+      amplifier: 1
+      level: 40
+      icon: RABBIT_FOOT
+      name: "Salto II"
+  vindicator:
+    strength:
+      type: strength
+      amplifier: 0
+      level: 5
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 12
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    haste:
+      type: haste
+      amplifier: 0
+      level: 20
+      icon: GOLDEN_PICKAXE
+      name: "Prisa I"
+    absorption:
+      type: absorption
+      amplifier: 1
+      level: 30
+      icon: GOLDEN_APPLE
+      name: "Absorcion II"
+    speed:
+      type: speed
+      amplifier: 1
+      level: 40
+      icon: SUGAR
+      name: "Velocidad II"
+  slime:
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 5
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    regeneration:
+      type: regeneration
+      amplifier: 0
+      level: 12
+      icon: GHAST_TEAR
+      name: "Regeneracion I"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 20
+      icon: FEATHER
+      name: "Caida lenta"
+    resistance:
+      type: resistance
+      amplifier: 1
+      level: 30
+      icon: IRON_CHESTPLATE
+      name: "Resistencia II"
+    speed:
+      type: speed
+      amplifier: 1
+      level: 40
+      icon: SUGAR
+      name: "Velocidad II"
+  magma_cube:
+    fire_resistance:
+      type: fire_resistance
+      amplifier: 0
+      level: 5
+      icon: MAGMA_CREAM
+      name: "Resistencia al fuego"
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 12
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 20
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    strength:
+      type: strength
+      amplifier: 1
+      level: 30
+      icon: BLAZE_POWDER
+      name: "Fuerza II"
+    regeneration:
+      type: regeneration
+      amplifier: 1
+      level: 40
+      icon: GHAST_TEAR
+      name: "Regeneracion II"
+  wolf:
+    speed:
+      type: speed
+      amplifier: 0
+      level: 5
+      icon: SUGAR
+      name: "Velocidad I"
+    strength:
+      type: strength
+      amplifier: 0
+      level: 12
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    night_vision:
+      type: night_vision
+      amplifier: 0
+      level: 20
+      icon: GOLDEN_CARROT
+      name: "Vision nocturna"
+    regeneration:
+      type: regeneration
+      amplifier: 1
+      level: 30
+      icon: GHAST_TEAR
+      name: "Regeneracion II"
+    resistance:
+      type: resistance
+      amplifier: 1
+      level: 40
+      icon: IRON_CHESTPLATE
+      name: "Resistencia II"
+  polar_bear:
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 5
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    water_breathing:
+      type: water_breathing
+      amplifier: 0
+      level: 12
+      icon: PUFFERFISH
+      name: "Respiracion acuatica"
+    strength:
+      type: strength
+      amplifier: 0
+      level: 20
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    health_boost:
+      type: health_boost
+      amplifier: 1
+      level: 30
+      icon: GLISTERING_MELON_SLICE
+      name: "Salud extra II"
+    fire_resistance:
+      type: fire_resistance
+      amplifier: 0
+      level: 40
+      icon: MAGMA_CREAM
+      name: "Resistencia al fuego"
+  panda:
+    regeneration:
+      type: regeneration
+      amplifier: 0
+      level: 5
+      icon: GHAST_TEAR
+      name: "Regeneracion I"
+    luck:
+      type: luck
+      amplifier: 0
+      level: 12
+      icon: EMERALD
+      name: "Suerte"
+    health_boost:
+      type: health_boost
+      amplifier: 0
+      level: 20
+      icon: GLISTERING_MELON_SLICE
+      name: "Salud extra I"
+    absorption:
+      type: absorption
+      amplifier: 1
+      level: 30
+      icon: GOLDEN_APPLE
+      name: "Absorcion II"
+    resistance:
+      type: resistance
+      amplifier: 1
+      level: 40
+      icon: IRON_CHESTPLATE
+      name: "Resistencia II"
+  hoglin:
+    strength:
+      type: strength
+      amplifier: 0
+      level: 5
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 12
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    health_boost:
+      type: health_boost
+      amplifier: 0
+      level: 20
+      icon: GLISTERING_MELON_SLICE
+      name: "Salud extra I"
+    fire_resistance:
+      type: fire_resistance
+      amplifier: 0
+      level: 30
+      icon: MAGMA_CREAM
+      name: "Resistencia al fuego"
+    absorption:
+      type: absorption
+      amplifier: 1
+      level: 40
+      icon: GOLDEN_APPLE
+      name: "Absorcion II"
+  zoglin:
+    strength:
+      type: strength
+      amplifier: 0
+      level: 5
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    resistance:
+      type: resistance
+      amplifier: 0
+      level: 20
+      icon: IRON_CHESTPLATE
+      name: "Resistencia I"
+    health_boost:
+      type: health_boost
+      amplifier: 1
+      level: 30
+      icon: GLISTERING_MELON_SLICE
+      name: "Salud extra II"
+    regeneration:
+      type: regeneration
+      amplifier: 1
+      level: 40
+      icon: GHAST_TEAR
+      name: "Regeneracion II"
+  fox:
+    speed:
+      type: speed
+      amplifier: 0
+      level: 5
+      icon: SUGAR
+      name: "Velocidad I"
+    night_vision:
+      type: night_vision
+      amplifier: 0
+      level: 12
+      icon: GOLDEN_CARROT
+      name: "Vision nocturna"
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 20
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    luck:
+      type: luck
+      amplifier: 0
+      level: 30
+      icon: EMERALD
+      name: "Suerte"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 40
+      icon: FEATHER
+      name: "Caida lenta"
+  goat:
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 5
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    strength:
+      type: strength
+      amplifier: 0
+      level: 12
+      icon: BLAZE_POWDER
+      name: "Fuerza I"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 20
+      icon: SUGAR
+      name: "Velocidad I"
+    resistance:
+      type: resistance
+      amplifier: 1
+      level: 30
+      icon: IRON_CHESTPLATE
+      name: "Resistencia II"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 40
+      icon: FEATHER
+      name: "Caida lenta"
+  bee:
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 5
+      icon: FEATHER
+      name: "Caida lenta"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 12
+      icon: SUGAR
+      name: "Velocidad I"
+    regeneration:
+      type: regeneration
+      amplifier: 0
+      level: 20
+      icon: GHAST_TEAR
+      name: "Regeneracion I"
+    haste:
+      type: haste
+      amplifier: 1
+      level: 30
+      icon: GOLDEN_PICKAXE
+      name: "Prisa II"
+    jump_boost:
+      type: jump_boost
+      amplifier: 1
+      level: 40
+      icon: RABBIT_FOOT
+      name: "Salto II"
+  axolotl:
+    water_breathing:
+      type: water_breathing
+      amplifier: 0
+      level: 5
+      icon: PUFFERFISH
+      name: "Respiracion acuatica"
+    regeneration:
+      type: regeneration
+      amplifier: 0
+      level: 12
+      icon: GHAST_TEAR
+      name: "Regeneracion I"
+    dolphins_grace:
+      type: dolphins_grace
+      amplifier: 0
+      level: 20
+      icon: HEART_OF_THE_SEA
+      name: "Gracia del delfin"
+    conduit_power:
+      type: conduit_power
+      amplifier: 0
+      level: 30
+      icon: CONDUIT
+      name: "Poder del conducto"
+    absorption:
+      type: absorption
+      amplifier: 1
+      level: 40
+      icon: GOLDEN_APPLE
+      name: "Absorcion II"
+  frog:
+    jump_boost:
+      type: jump_boost
+      amplifier: 0
+      level: 5
+      icon: RABBIT_FOOT
+      name: "Salto I"
+    water_breathing:
+      type: water_breathing
+      amplifier: 0
+      level: 12
+      icon: PUFFERFISH
+      name: "Respiracion acuatica"
+    speed:
+      type: speed
+      amplifier: 0
+      level: 20
+      icon: SUGAR
+      name: "Velocidad I"
+    slow_falling:
+      type: slow_falling
+      amplifier: 0
+      level: 30
+      icon: FEATHER
+      name: "Caida lenta"
+    luck:
+      type: luck
+      amplifier: 0
+      level: 40
+      icon: EMERALD
+      name: "Suerte"

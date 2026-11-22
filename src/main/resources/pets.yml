@@ -1,0 +1,379 @@
+# Mascotas de la tienda (solo mobs con animacion de ataque). page = pagina del menu Comprar, slot = posicion (fila*9+columna).
+# attack: melee | arrow | fireball | snowball | spit | potion | wind | fangs   (los de distancia atacan a distancia)
+# flying: true = vuela. enabled: false = oculta de la tienda. Todas las mascotas se pueden montar.
+
+pets:
+  zombie:
+    entity: ZOMBIE
+    name: "Zombie"
+    price: 5000
+    damage: 4
+    icon: ZOMBIE_SPAWN_EGG
+    page: 1
+    slot: 10
+    attack: melee
+    enabled: true
+  husk:
+    entity: HUSK
+    name: "Husk"
+    price: 5000
+    damage: 4
+    icon: HUSK_SPAWN_EGG
+    page: 1
+    slot: 11
+    attack: melee
+    enabled: true
+  drowned:
+    entity: DROWNED
+    name: "Ahogado"
+    price: 5000
+    damage: 4
+    icon: DROWNED_SPAWN_EGG
+    page: 1
+    slot: 12
+    attack: melee
+    enabled: true
+  zombie_villager:
+    entity: ZOMBIE_VILLAGER
+    name: "Aldeano zombie"
+    price: 5000
+    damage: 4
+    icon: ZOMBIE_VILLAGER_SPAWN_EGG
+    page: 1
+    slot: 13
+    attack: melee
+    enabled: true
+  zombified_piglin:
+    entity: ZOMBIFIED_PIGLIN
+    name: "Piglin zombificado"
+    price: 5000
+    damage: 4
+    icon: ZOMBIFIED_PIGLIN_SPAWN_EGG
+    page: 1
+    slot: 14
+    attack: melee
+    enabled: true
+  piglin:
+    entity: PIGLIN
+    name: "Piglin"
+    price: 5000
+    damage: 4
+    icon: PIGLIN_SPAWN_EGG
+    page: 1
+    slot: 15
+    attack: melee
+    enabled: true
+  piglin_brute:
+    entity: PIGLIN_BRUTE
+    name: "Piglin bruto"
+    price: 6000
+    damage: 5
+    icon: PIGLIN_BRUTE_SPAWN_EGG
+    page: 1
+    slot: 16
+    attack: melee
+    enabled: true
+  skeleton:
+    entity: SKELETON
+    name: "Esqueleto"
+    price: 6000
+    damage: 4
+    icon: SKELETON_SPAWN_EGG
+    page: 1
+    slot: 19
+    attack: arrow
+    enabled: true
+  stray:
+    entity: STRAY
+    name: "Stray"
+    price: 6000
+    damage: 4
+    icon: STRAY_SPAWN_EGG
+    page: 1
+    slot: 20
+    attack: arrow
+    enabled: true
+  bogged:
+    entity: BOGGED
+    name: "Pantanoso"
+    price: 6000
+    damage: 4
+    icon: BOGGED_SPAWN_EGG
+    page: 1
+    slot: 21
+    attack: arrow
+    enabled: true
+  pillager:
+    entity: PILLAGER
+    name: "Saqueador"
+    price: 7000
+    damage: 5
+    icon: PILLAGER_SPAWN_EGG
+    page: 1
+    slot: 22
+    attack: arrow
+    enabled: true
+  blaze:
+    entity: BLAZE
+    name: "Blaze"
+    price: 9000
+    damage: 5
+    icon: BLAZE_SPAWN_EGG
+    page: 1
+    slot: 23
+    attack: fireball
+    enabled: true
+    flying: true
+  breeze:
+    entity: BREEZE
+    name: "Breeze"
+    price: 9000
+    damage: 5
+    icon: BREEZE_SPAWN_EGG
+    page: 1
+    slot: 24
+    attack: wind
+    enabled: true
+  witch:
+    entity: WITCH
+    name: "Bruja"
+    price: 8000
+    damage: 4
+    icon: WITCH_SPAWN_EGG
+    page: 1
+    slot: 25
+    attack: potion
+    enabled: true
+  evoker:
+    entity: EVOKER
+    name: "Evocador"
+    price: 12000
+    damage: 6
+    icon: EVOKER_SPAWN_EGG
+    page: 1
+    slot: 28
+    attack: fangs
+    enabled: true
+  snow_golem:
+    entity: SNOW_GOLEM
+    name: "Golem de nieve"
+    price: 4000
+    damage: 3
+    icon: SNOW_GOLEM_SPAWN_EGG
+    page: 1
+    slot: 29
+    attack: snowball
+    enabled: true
+  llama:
+    entity: LLAMA
+    name: "Llama"
+    price: 4500
+    damage: 3
+    icon: LLAMA_SPAWN_EGG
+    page: 1
+    slot: 30
+    attack: spit
+    enabled: true
+  trader_llama:
+    entity: TRADER_LLAMA
+    name: "Llama mercader"
+    price: 4500
+    damage: 3
+    icon: TRADER_LLAMA_SPAWN_EGG
+    page: 1
+    slot: 31
+    attack: spit
+    enabled: true
+  spider:
+    entity: SPIDER
+    name: "Arana"
+    price: 3500
+    damage: 3
+    icon: SPIDER_SPAWN_EGG
+    page: 1
+    slot: 32
+    attack: melee
+    enabled: true
+  cave_spider:
+    entity: CAVE_SPIDER
+    name: "Arana de cueva"
+    price: 3500
+    damage: 3
+    icon: CAVE_SPIDER_SPAWN_EGG
+    page: 1
+    slot: 33
+    attack: melee
+    enabled: true
+  silverfish:
+    entity: SILVERFISH
+    name: "Lepisma"
+    price: 2500
+    damage: 2
+    icon: SILVERFISH_SPAWN_EGG
+    page: 1
+    slot: 34
+    attack: melee
+    enabled: true
+  endermite:
+    entity: ENDERMITE
+    name: "Endermite"
+    price: 2500
+    damage: 2
+    icon: ENDERMITE_SPAWN_EGG
+    page: 1
+    slot: 37
+    attack: melee
+    enabled: true
+  vex:
+    entity: VEX
+    name: "Vex"
+    price: 8000
+    damage: 5
+    icon: VEX_SPAWN_EGG
+    page: 1
+    slot: 38
+    attack: melee
+    enabled: true
+    flying: true
+  phantom:
+    entity: PHANTOM
+    name: "Phantom"
+    price: 8000
+    damage: 5
+    icon: PHANTOM_SPAWN_EGG
+    page: 1
+    slot: 39
+    attack: melee
+    enabled: true
+    flying: true
+  vindicator:
+    entity: VINDICATOR
+    name: "Vindicador"
+    price: 7000
+    damage: 6
+    icon: VINDICATOR_SPAWN_EGG
+    page: 1
+    slot: 40
+    attack: melee
+    enabled: true
+  slime:
+    entity: SLIME
+    name: "Slime"
+    price: 3000
+    damage: 3
+    icon: SLIME_SPAWN_EGG
+    page: 1
+    slot: 41
+    attack: melee
+    enabled: true
+  magma_cube:
+    entity: MAGMA_CUBE
+    name: "Cubo de magma"
+    price: 5000
+    damage: 4
+    icon: MAGMA_CUBE_SPAWN_EGG
+    page: 1
+    slot: 42
+    attack: melee
+    enabled: true
+  wolf:
+    entity: WOLF
+    name: "Lobo"
+    price: 5000
+    damage: 4
+    icon: WOLF_SPAWN_EGG
+    page: 1
+    slot: 43
+    attack: melee
+    enabled: true
+  polar_bear:
+    entity: POLAR_BEAR
+    name: "Oso polar"
+    price: 9000
+    damage: 6
+    icon: POLAR_BEAR_SPAWN_EGG
+    page: 1
+    slot: 46
+    attack: melee
+    enabled: true
+  panda:
+    entity: PANDA
+    name: "Panda"
+    price: 8000
+    damage: 5
+    icon: PANDA_SPAWN_EGG
+    page: 1
+    slot: 47
+    attack: melee
+    enabled: true
+  hoglin:
+    entity: HOGLIN
+    name: "Hoglin"
+    price: 10000
+    damage: 6
+    icon: HOGLIN_SPAWN_EGG
+    page: 1
+    slot: 48
+    attack: melee
+    enabled: true
+  zoglin:
+    entity: ZOGLIN
+    name: "Zoglin"
+    price: 12000
+    damage: 6
+    icon: ZOGLIN_SPAWN_EGG
+    page: 1
+    slot: 49
+    attack: melee
+    enabled: true
+  fox:
+    entity: FOX
+    name: "Zorro"
+    price: 3500
+    damage: 3
+    icon: FOX_SPAWN_EGG
+    page: 1
+    slot: 50
+    attack: melee
+    enabled: true
+  goat:
+    entity: GOAT
+    name: "Cabra"
+    price: 3500
+    damage: 3
+    icon: GOAT_SPAWN_EGG
+    page: 1
+    slot: 51
+    attack: melee
+    enabled: true
+  bee:
+    entity: BEE
+    name: "Abeja"
+    price: 3000
+    damage: 2
+    icon: BEE_SPAWN_EGG
+    page: 1
+    slot: 52
+    attack: melee
+    enabled: true
+    flying: true
+  axolotl:
+    entity: AXOLOTL
+    name: "Ajolote"
+    price: 3500
+    damage: 3
+    icon: AXOLOTL_SPAWN_EGG
+    page: 2
+    slot: 10
+    attack: melee
+    enabled: true
+  frog:
+    entity: FROG
+    name: "Rana"
+    price: 3000
+    damage: 3
+    icon: FROG_SPAWN_EGG
+    page: 2
+    slot: 11
+    attack: melee
+    enabled: true
